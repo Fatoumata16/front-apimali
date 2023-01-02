@@ -1,0 +1,110 @@
+<!-- <ion-app>
+  <ion-router-outlet></ion-router-outlet>
+  <ion-menu-toggle >
+    <ion-icon size="large" name="menu-outline"></ion-icon>
+  </ion-menu-toggle>
+  <ion-menu contentId="main-content" menuId="main-menu" >
+    <ion-header>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+  
+          </ion-col>
+          <ion-col>
+            <h2>nom</h2>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  
+    </ion-header>
+    <ion-content>
+      <div   class="l">
+    
+      <ion-item href="/accueil">
+        <ion-icon name="home-sharp" style="margin-right: 20px;"></ion-icon>
+        <ion-label>Accueil</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon name="bag" style="margin-right: 20px;"></ion-icon><ion-label>Region</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon name="bag" style="margin-right: 20px;"></ion-icon> 
+        <ion-label>Anchor Item</ion-label>
+      </ion-item>
+      <ion-item href="#">
+        <ion-icon name="person-add" style="margin-right: 20px;"></ion-icon><ion-label>Deconnexion</ion-label>
+      </ion-item>
+    </div>
+    </ion-content>
+  </ion-menu>
+</ion-app> -->
+<ion-app >
+  <ion-menu menuId="main-menu" content-id="main" >
+    <ion-header>
+      <ion-toolbar class="blue">
+        <ion-title> Menu </ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+    <ion-content class="bgmenu">
+     
+     
+        <ion-list class="list">
+  
+          <ion-menu-toggle>
+            <ion-item routerLink ="/accueil" class="success">
+              <ion-icon name="home" slot="start" ></ion-icon>
+              <ion-label>Accueil</ion-label>
+            </ion-item>
+          
+          </ion-menu-toggle>
+          <br>
+          <ion-menu-toggle>
+            <ion-item routerLink="ajoutregion" class="jaune">
+              <ion-icon name="add" slot="start"></ion-icon>
+              <ion-label>Ajouter des Régions</ion-label>
+            </ion-item>
+  
+          </ion-menu-toggle>
+  <br>
+          <ion-menu-toggle>
+  
+            <ion-item routerLink="utilisateur" class="rouge">
+              <ion-icon name="heart" slot="start"></ion-icon>
+              <ion-label>utilisateur</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <br>
+          <ion-menu-toggle>
+            <ion-item routerLink="ajouterregion" class="ajoutregion">
+              <ion-icon name="add" slot="start"></ion-icon>
+              <ion-label>Ajouter Régions</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+  <br>
+          <ion-menu-toggle>
+            <ion-item routerLink="seconnecter" class="connet">
+              <ion-icon name="profil" slot="start"></ion-icon>
+              <ion-label>Se Connecter</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+  <br>
+          <ion-menu-toggle>
+            <ion-item routerLink="signup" class="connet" >
+              <ion-icon name="profil" slot="start"></ion-icon>
+              <ion-label>Créer un Compte</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          
+  
+          
+        </ion-list>
+  
+  
+    </ion-content>
+  
+  
+  </ion-menu>
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-app>

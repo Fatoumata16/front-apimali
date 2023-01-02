@@ -1,0 +1,108 @@
+.im {
+    
+    height: 100%;
+    background:linear-gradient(0deg,rgba(0, 0, 0, 0.248),rgba(93, 218, 252, 0.529))
+     no-repeat center center  /  cover;
+    //  object-fit: none;
+
+    
+    
+}
+// .header {
+    
+//     // height: 100%;
+//     background:linear-gradient(0deg,rgba(0, 0, 0, 0.248),rgba(93, 218, 252, 0.529))
+//      no-repeat center center  /  cover;
+//     //  object-fit: none;
+
+    
+    
+// }
+.he{
+    background-color:  #27cdea;
+    --ion-background-color: #67d1ecdb!important;
+   
+}
+.b{
+    --ion-background-color: #14AACF!important;
+
+}
+.img::before{
+    content: "";
+    width: 140px;
+    height:45px;
+    border: 2px solid rgb(5, 67, 71);
+    background-color: rgb(16, 112, 150);
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: translate(-145px,-4px);
+    z-index: -1;
+}
+.img:hover::before{
+    transform: translate(0px,0px);
+    transition: 2s;
+}
+
+.img{
+    
+    height: 100%;
+    width: 100%;
+    transition: transform 2s;
+    overflow: hidden;
+
+ 
+}
+.img:hover{
+  background-color: rgb(63, 214, 29);
+  transform: scale(1.2);
+}
+// .details{
+//  position: absolute;
+//  height: 300px;
+//  top: 20px;
+//  left: 10px;
+//  bottom: 10px;
+//  right: 10px;
+//  background: rgb(0,0,0,.8);
+//  transform: scale(0);
+//  transition: transform .5s;
+// }
+// .details:hover{
+//     transform: scale(1.5);
+
+// }
+// .content{
+//     position: absolute;
+//     top: 100px;
+//     transform: translateY(-50%);
+//     text-align: center;
+//     padding: 15px;
+//     color: #fff;
+// }
+
+    // ion-header{
+    //     background-color:rgba(8, 8, 7, 0.875) !important;
+
+    // }
+    // ion-content{
+    //     --ion-tab-bar-background-focused:#cb1313;
+    // }
+    ion-menu{
+        // --ion-toolbar-background:#404040;
+        --ion-background-color: #404040;
+
+   }
+//    .n{
+//     --ion-toolbar-background:#404040;
+//    }
+//    .l{
+//     --ion-tab-bar-color-selected:#000000;
+//    }
+//    .oj{
+//     background-color:#404040;
+//     height: 100%;
+//     width: 100%;
+//    }

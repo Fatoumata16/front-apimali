@@ -1,0 +1,53 @@
+
+
+<ion-content >
+  <div class="he" style="height: 100%;">
+  <ion-grid  style="height: 100%;">
+    <!-- <ion-row></ion-row> -->
+    <ion-row  style="justify-content: center;margin-top: 10%;">
+      <ion-col size-xs="11" size-sm="4"></ion-col>
+      <ion-col size-xs="11" size-sm="4"> 
+        <ion-card class="oh">
+          <ion-card-content    > 
+            <div class="padding">
+              <ion-item color="dark!important">
+               
+                <ion-input  placeholder=" Adresse email"  type="text" color="light" [(ngModel)]="username" ></ion-input>
+              </ion-item>
+              <ion-item color="dark!important">
+                
+                <ion-input color="dark" placeholder=" Mot de Passe"  type="password" color="light" [(ngModel)]="password"></ion-input>
+              </ion-item>
+              <ion-item lines="none" color="dark!important">
+                <!-- slot pour que mon texte soit mit a la fin et fill pour que le texte uniquement soit mise en valeur -->
+                <ion-button  slot="end" fill="clear" color="dark!important">Mot de Passe Oublie?</ion-button>
+              </ion-item>
+              <!-- pour que nos button prennent toute la largeur -->
+              <!-- shape pour arrondir les bords du boutons -->
+              <!-- pour  que le bord et le text uniquement soit colore -->
+              <!-- <ion-button fill="outline" expand="block" shape="round">Connexion</ion-button> -->
+              <br>
+              <ion-button expand="block"shape="round" class="oh" (click)="onSubmit()" >Inscription</ion-button>
+              <!-- pour qu'il 'y est pas de ligne' -->
+              <ion-item lines="none" color="dark!important">
+                <ion-label text-center color="light"  >connecter vous avec ?</ion-label>
+                 <!-- slot pour que mon texte soit mit a la fin et fill pour que le texte uniquement soit mise en valeur -->
+                 <ion-button  slot="end" fill="clear" style="margin-top: -35px;">Pas de compte?</ion-button>
+              </ion-item>
+              <ion-item lines="none" class="cool" color="dark!important">
+               
+              </ion-item>
+              
+              </div>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col size-xs="11" size-sm="4">
+        
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+</div>
+
+</ion-content>

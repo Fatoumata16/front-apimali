@@ -1,0 +1,19 @@
+ion-content{
+    --ion-background-color:#E1EAF9
+}
+ion-heaader{
+    position: absolute;
+}
+ion-toolbar{
+    --ion-background-color:transparent;
+    --opacity:0;
+}
+ion-item{
+    --ion-background-color:transparent!important;
+}
+.padding{
+    padding: 40px;
+}
+.flex{
+    display: flex;
+}

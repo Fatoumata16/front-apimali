@@ -1,0 +1,73 @@
+
+.logo-img{
+    
+    height: 180px;
+    display: block;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.login-header {
+    background-color: #5260ff;
+}
+.login-header{
+    position: relative;
+    border-radius: 0em;
+    background-color: #5260ff;
+}
+.login-header:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #5260ff;
+    border-bottom: 0;
+    margin-left: -15px;
+    margin-bottom: -15px;
+}
+[heading-column-lr]{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+[big-heading]{
+    font-family: "Heebo-Bold" !important;
+    font-size: 30px !important;
+    color: #5260ff;}
+[small-heading]{
+    font-family: "Heebo-Bold" !important;
+    margin-left: auto;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.center{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+ion-item{
+    --ion-background-color:transparent!important;
+}
+.padding{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+}
+.oh{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.l{
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+.par{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-weight: 700;
+    text-align: center;
+}

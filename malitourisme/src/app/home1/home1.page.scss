@@ -1,0 +1,176 @@
+ion-content{
+   
+    --background:linear-gradient(0deg,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.529)),
+    url("/assets/img/malitouristique1.jpg") no-repeat center center  /  cover;
+}
+.cartee{
+    height: 30vh;
+    width: 100%;
+  
+   
+    background: rgb(255, 255, 255);
+    right: 0;
+    left: 0;
+    top: 150px;
+    position:absolute;
+    margin: auto;
+    // border-top-left-radius: 46px;
+    // border-top-right-radius: 46px;
+    .heading{
+        margin-top:-15px;
+        text-align: center;
+        h1{
+            font-size: 1.6rem;
+        }
+    }
+    h1{
+        text-align: center;
+    }
+
+   
+}
+.carte{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    height: 78vh;
+    width: 100%;
+   
+    background: rgba(232, 230, 230, 0.905);
+    margin: auto;
+    border-radius: 44px;
+   
+   
+}
+.bb{
+    position: relative;
+    height: 95px;
+    padding-right: 20px;
+    left: 40%;
+}
+.im{
+    height: 240px;
+}
+.car{
+    height: 15vh;
+    width: 110px;
+   padding-right: 15px;
+    background: rgba(56, 56, 56, 0.905);
+    margin: auto;
+   
+}
+
+.ok{
+    background: rgba(232, 230, 230, 0.453);;
+}
+.al{
+    background:#6370ff ;
+    border-bottom-left-radius: 44px;
+    border-bottom-right-radius: 44px;
+    height: 200px;
+}
+.ol{
+    background:#6370ff00 ;
+}
+.toolbar-container {
+    padding-left: var(--padding-start);
+    padding-right: var(--padding-end);
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-bottom);
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: var(--min-height);
+    contain: content;
+    overflow: hidden;
+    z-index: 10;
+    box-sizing: border-box;
+    background: #6370ff;
+}
+.okm{
+    background: #6370ff4e;
+}
+ion-header{
+    --background: dark;
+}
+.petit{
+    height: 10vh;
+    width: 30%;
+   
+    background: rgb(255, 255, 255);
+    right: 0;
+    left: 0;
+    top: 5px;
+    position:absolute;
+    margin: auto;
+}
+/* iOS places the subtitle above the title */
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+  .pe{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 380px;
+    left: -15px;
+  }
+  .pe1{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 285px;
+    left: 180px;
+  }
+  .pe4{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 345px;
+    left: -15px;
+  }
+  .m{
+    position: relative
+    ;
+    top: -5px;
+    size: 8px;
+  }
+  .pe5{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 410px;
+    left: -15px;
+  }
+  .pe6{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 315px;
+    left: 180px;
+  }
+  .pe7{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 375px;
+    left: 180px;
+  }
+  .pe8{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    top: 280px;
+    left: -15px;
+  }
+  .oli{
+    justify-content: center;
+  }
+  .par{
+    justify-content: center;
+  }
+  

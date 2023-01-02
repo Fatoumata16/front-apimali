@@ -1,0 +1,115 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="end">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <div class="aller">
+<img src="/assets/img/pexels-hendrik-cornelissen-2862070.jpg" style="height: 500px; width: 100%;" alt="">
+ </div>
+ <h1 style="text-align: center;font-size: x-large;">Description</h1>
+ <ion-card>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-card>
+            <ion-card-header> <h1 style="text-align: center;font-size: x-large;">{{f.languemaj}}</h1>
+            </ion-card-header>
+            <ion-card-content>
+      <p>{{f.domaineact}}
+          </p>
+          <p>{{f.languemaj}}
+          </p>
+          <p>{{f.superficie}}
+          </p>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+          <ion-card>
+            <ion-card-content style="text-align: center;">
+              30
+            </ion-card-content>
+          </ion-card> </ion-col>
+          <ion-col>
+            <ion-card>
+              <ion-card-content style="text-align: center;">
+                30
+              </ion-card-content>
+            </ion-card> </ion-col>
+            <ion-col>
+              <ion-card>
+                <ion-card-content style="text-align: center;">
+                  30
+                </ion-card-content>
+              </ion-card> </ion-col>
+         </ion-row> </ion-grid>
+        </ion-card-content>
+        </ion-card>
+        </ion-col>
+        <ion-col>
+          <ion-card>
+            <ion-card-content  >
+          <h1>Les Differents Commentaires lies a la region </h1>
+
+          <ion-list *ngFor="let g of d">
+  
+    
+            <ion-list-header lines="full">
+              <ion-label><img src="/assets/img/mali.png" alt="" class="img"></ion-label>
+            </ion-list-header>
+            <ion-item>
+              <ion-label>{{g.contenuecomm
+              }}</ion-label>
+            </ion-item>
+            <!-- <ion-item>
+              <ion-label>{{g[1]}}</ion-label>
+            </ion-item>  -->
+          </ion-list> 
+          
+          <!-- <ion-list>
+            <ion-list-header lines="full">
+              <ion-label><img src="/assets/img/mali.png" alt="" class="img"></ion-label>
+            </ion-list-header>
+            <ion-item>
+              <ion-label>Item</ion-label>
+            </ion-item>
+          </ion-list> -->
+          
+          
+          <ion-button id="open-modal" expand="block">Open</ion-button>
+          <p>{{ message }}</p>
+          <ion-modal trigger="open-modal" (willDismiss)="onWillDismiss($event)">
+            <ng-template>
+              <ion-header>
+                <ion-toolbar>
+                  <ion-buttons slot="start">
+                    <ion-button (click)="cancel()">Cancel</ion-button>
+                  </ion-buttons>
+                  <ion-title>Welcome</ion-title>
+                  <ion-buttons slot="end">
+                    <ion-button (click)="confirm()" [strong]="true">Confirm</ion-button>
+                  </ion-buttons>
+                </ion-toolbar>
+              </ion-header>
+              <ion-content class="ion-padding">
+                <ion-item>
+                  <ion-label position="stacked">Enter votre commentaire svp</ion-label>
+                  <ion-input type="text" placeholder="Commentaire" [(ngModel)]="name"></ion-input>
+                </ion-item>
+              </ion-content>
+            </ng-template>
+          </ion-modal>
+          
+        </ion-card-content>
+        </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+   
+  </ion-card-content>
+ </ion-card>
+</ion-content>

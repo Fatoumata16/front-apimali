@@ -1,0 +1,7 @@
+{
+  "name": "malitourisme",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

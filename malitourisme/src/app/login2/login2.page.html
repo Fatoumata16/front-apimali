@@ -1,0 +1,52 @@
+<ion-header no-border>
+  <div class="login-header ion-padding" >
+    <img  class="logo-img"  src="assets/img/R (5).png" alt="fatou" >
+
+  </div>
+</ion-header>
+
+<ion-content>
+  <div class="center">
+    <div heading-column-lr>
+      <h1 big-heading>login</h1>
+      <h2 small-heading>Sign up</h2>
+  
+    </div>
+    <div class="ok">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cumque, sequi quaerat</p>
+    </div>
+  
+  
+   </div>
+
+  <div class="padding">
+<ion-item>
+ 
+  <ion-input color="dark" placeholder=" Adresse email"  type="email"></ion-input>
+</ion-item>
+<ion-item>
+  
+  <ion-input color="dark" placeholder=" Mot de Passe"  type="password"></ion-input>
+</ion-item>
+<ion-item lines="none">
+  <!-- slot pour que mon texte soit mit a la fin et fill pour que le texte uniquement soit mise en valeur -->
+  <ion-button  slot="end" fill="clear">Mot de Passe Oublie?</ion-button>
+</ion-item>
+<!-- pour que nos button prennent toute la largeur -->
+<!-- shape pour arrondir les bords du boutons -->
+<!-- pour  que le bord et le text uniquement soit colore -->
+<!-- <ion-button fill="outline" expand="block" shape="round">Connexion</ion-button> -->
+<br>
+<ion-button expand="block"shape="round" class="oh">Inscription</ion-button>
+<!-- pour qu'il 'y est pas de ligne' -->
+<ion-item lines="none">
+  <ion-label text-center color="light"  >connecter vous avec ?</ion-label>
+</ion-item>
+<ion-item lines="none">
+  <!-- slot pour que mon texte soit mit a la fin et fill pour que le texte uniquement soit mise en valeur -->
+  <ion-button  slot="end" fill="clear" class="l">Pas de compte?</ion-button>
+</ion-item>
+
+</div>
+</ion-content>
+
